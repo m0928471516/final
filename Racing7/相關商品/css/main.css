@@ -1,0 +1,314 @@
+.panel{
+    display: none;
+}
+
+body{
+    background-color: #565656;
+    font-size: 16px;
+    margin: 0px 0px;
+}
+
+header{
+    text-align: left;
+    position: relative;
+}
+
+.logo{
+    float: left;
+    margin-top: 5px;
+    font-size: 60px;
+    margin-left: 20px;
+    color: red;
+}
+
+.right{
+    float: right;
+    width: 763px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.hamburger-menu {
+    position: absolute;
+    top: 17px;
+    left: 262px;
+    background: none;
+    border: none;
+    display: none;
+}
+
+.hamburger-menu .icon-bar {
+    background-color: black;
+    display: block;
+    height: 8px;
+    margin: 2px auto 8px;
+    width: 60px;
+}
+
+.navigation{
+    display: block;
+    background-color: black;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.navigation ul{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.navigation ul ls{
+    display: block;
+    float: left;
+    width: 110px;
+    text-align: center;
+}
+
+.navigation a{
+    color: white;
+}
+
+.largebanner{
+    display: block;
+    width: 1078px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.largebanner .large1{
+    margin-left: 35px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    float: left;
+}
+
+.largebanner .large2{
+    margin-right: 35px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    float: right;
+}
+
+.main{
+    display: block;
+    width: 1100px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.main .main-content{
+    padding: 5px;
+}
+
+.main .main-content .main-heading{
+    border-left:3px solid #e54e53;
+    padding-left: 14px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    font: 18px "微軟正黑體", "Open Sans", Arial, sans-serif;
+}
+
+.main .main-content .main-heading strong{
+    margin-left: 14px;
+    font-family: "微軟正黑體", sans-serif;
+}
+
+.main .list{
+    display: block;
+}
+
+.main .list .column{
+    padding: 0px;
+    margin-right: -44px;
+    margin-left: 11px;
+}
+
+.main .list .column a{
+    position: relative;
+    display: block;
+    /* padding-left: 18px; */
+    padding-bottom: 25px;
+    float: left;
+}
+
+.main .list .column img{
+    height: 230px;
+}
+
+.main .list .column h3{
+    position: absolute;
+    box-sizing: border-box;
+    background: transparent;
+    margin-bottom: 22px;
+    /* border-right: 18px solid white; */
+    padding: 14px 12px;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-family: "微軟正黑體", sans-serif;
+    background: rgba(0,0,0,0.3);
+}
+
+.main-footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1e1e1e;
+}
+
+.main-footer .wrap ul{
+    margin-bottom: 0px;
+    padding: 0px 0px;
+    padding-top: 40px;
+    width: 1078px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-footer .wrap ul ls{
+    float: left;
+}
+
+.main-footer .wrap ul ls a{
+    display: block;
+    color: white;
+    font-family: "微軟正黑體", sans-serif;
+    padding-bottom: 12px;
+}
+
+.clear{
+    clear: both;
+}
+
+.clear-bar{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        float: none;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .right{
+        margin-top: 0px;
+        margin-bottom: 5px;
+        width: 720px;
+    }
+
+    .navigation{
+        display: block;
+        width: 778px;
+        font-size: 14px;
+    }
+
+    .navigtion ul{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    
+    .navigation ul ls{
+        width: 100px;
+        margin-right: -15px;
+    }
+
+    .largebanner{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: auto;
+    }
+
+    .largebanner .large1{
+        text-align: center;
+        margin: 0px;
+        float: none;
+    }
+    
+    .largebanner .large2{
+        text-align: center;
+        margin: 0px;
+        float: none;
+    }
+
+    .main{
+        width: 778px;
+    }
+
+    .main .list .column{
+        padding: 0px;
+        margin-right: -15px;
+        margin-left: 15px;
+    }
+
+    .main-footer{
+        width: 778px;
+    }
+
+    .main-footer .wrap ul{
+        width: auto;
+    }
+
+    .main-footer .wrap ul ls{
+        margin-bottom: 40px;
+    }
+
+    .clear-bar{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo{
+        float: left;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .navigation ul{
+        margin: 0px;
+        padding-bottom: 0px;
+    }
+
+    .navigation ul ls{
+        width: 345px;
+        padding-bottom: 10px;
+    }
+
+    .hamburger-menu {
+        display: inline-block;
+    }
+
+    .largebanner{
+        display: none;
+    }
+
+    .main{
+        width: auto;
+    }
+
+    .main .list .column{
+        padding: 0px;
+        margin-left: 15px;
+    }
+
+    .main-footer{
+        width: 375px;
+    }
+}
